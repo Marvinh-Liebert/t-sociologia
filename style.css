@@ -42,7 +42,7 @@ header{
   padding: 20px 0;
   margin-bottom: 30px;
 
-  #logo{
+  div.logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,14 +168,17 @@ main{
   background-color: var(--principal);
   border-radius: 20px;
   position: relative;
+  box-shadow: 3px 3px 5px black;
 
   display: flex;
   justify-content: center;
+
 
   #pos-credito{
     height: 500px;
     width: 1200px;
     border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
   }
 }
 
