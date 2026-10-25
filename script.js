@@ -1,7 +1,7 @@
 const blocosTopicos = document.querySelectorAll('.cont-top')
 
 const logo = document.getElementById('logo')
-const video = document.getElementById('video')
+const video = document.getElementById('meu-video')
 
 
 
