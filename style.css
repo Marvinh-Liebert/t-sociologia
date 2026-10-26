@@ -174,11 +174,12 @@ main{
   justify-content: center;
 
 
-  #pos-credito{
-    height: 500px;
-    width: 1200px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px black;
+  video#pos-credito{
+    margin: 20px;
+    height: 400px;
+    width: 650px;
+    border-radius: 20;
+    
   }
 }
 
