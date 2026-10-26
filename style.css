@@ -22,7 +22,7 @@
 
 body{
   height: 100%;
-  width: 100%;
+  
   background-image: linear-gradient(to top, var(--marrom01), var(--marrom02));
   font-size: 1.5em;
 
@@ -86,6 +86,7 @@ header{
 
 main{
   grid-column: 2/3;
+  text-align: justify;
 
   div.cont-top{
     background-color: var(--principal);
@@ -155,7 +156,7 @@ main{
         }
 
         ul{
-          padding: 0px 70px;
+          padding: 0px 20px;
         }
       }
 
@@ -168,7 +169,7 @@ main{
   grid-column: 2/3;
   background-color: var(--principal);
   border-radius: 20px;
-  position: relative;
+  
   box-shadow: 3px 3px 5px black;
 
   display: flex;
@@ -177,9 +178,7 @@ main{
 
   video#pos-credito{
     margin: 20px;
-    height: 400px;
-    width: 650px;
-    border-radius: 20;
+    height: 232px;
     
   }
 }
@@ -201,4 +200,7 @@ footer{
     grid-template-columns: 1rem 1fr 1rem;
 
   }
+   p{
+    padding-bottom: 0px;
+   }
 }
