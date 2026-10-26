@@ -22,11 +22,12 @@
 
 body{
   height: 100%;
+  width: 100%;
   background-image: linear-gradient(to top, var(--marrom01), var(--marrom02));
   font-size: 1.5em;
 
   display: grid;
-  grid-template-columns: 1fr 80vw 1fr;
+  grid-template-columns:  10rem 1fr 10rem;
 }
 
 header{
@@ -51,7 +52,7 @@ header{
     padding: 0;
 
     img{
-      height: 250px;
+      height: 150px;
       border-radius: 50%;
       border: 5px solid transparent;
       outline: 5px solid var(--laranjaD);
@@ -64,8 +65,8 @@ header{
     }
 
     video#meu-video{
-      height: 250px;
-      width: 250px;
+      height: 150px;
+      width: 150px;
       border-radius: 50%;
       border: 5px solid transparent;
       outline: 5px solid var(--laranjaD);
@@ -189,4 +190,15 @@ footer{
   color: var(--principal);
   text-shadow: 3px 3px 5px black;
   margin-bottom: 100px;
+}
+
+@media (max-width: 768px){
+  body{
+    width: 50%;
+    font-size: 1em;
+
+    display: grid;
+    grid-template-columns: 1rem 1fr 1rem;
+
+  }
 }
