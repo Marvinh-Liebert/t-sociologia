@@ -22,7 +22,6 @@
 
 body{
   height: 100%;
-  
   background-image: linear-gradient(to top, var(--marrom01), var(--marrom02));
   font-size: 1.5em;
 
@@ -178,8 +177,10 @@ main{
 
   video#pos-credito{
     margin: 20px;
-    height: 232px;
-    
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
   }
 }
 
@@ -193,14 +194,16 @@ footer{
 
 @media (max-width: 768px){
   body{
-    width: 50%;
+    width: 100%;
     font-size: 1em;
+    
 
     display: grid;
     grid-template-columns: 1rem 1fr 1rem;
 
   }
-   p{
-    padding-bottom: 0px;
-   }
+  
+  #video-pos-credito{
+    height: 232px;
+  }
 }
