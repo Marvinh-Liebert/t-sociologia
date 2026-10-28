@@ -211,16 +211,16 @@ footer{
     
 
     display: grid;
-    grid-template-columns: 0;
+    grid-template-columns: 0.5rem 1fr 0.5rem;
 
   }
 
   .btn-nav{
-    height: 50px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
   }
   
-  #video-pos-credito{
+  video#pos-credito{
     height: 232px;
   }
 
