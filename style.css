@@ -23,10 +23,10 @@
 body{
   height: 100%;
   background-image: linear-gradient(to top, var(--marrom01), var(--marrom02));
-  font-size: 1.5em;
+  font-size: 1.2em;
 
   display: grid;
-  grid-template-columns:  10rem 1fr 10rem;
+  grid-template-columns:  6rem 1fr 6rem;
 }
 
 header{
@@ -98,8 +98,8 @@ main{
     
 
     .btn-nav{
-      height: 50px;
-      width: 50px;
+      height: 40px;
+      width: 40px;
       border-radius: 50%;
       border: none;
       background-color: var(--laranjaD);
@@ -113,6 +113,14 @@ main{
     .btn-nav:hover{
       background-color: var(--laranjaDH);
       cursor: grab;
+    }
+
+    .btn-ant{
+      left: -15px;
+    }
+
+    .btn-prox{
+      right: -15px;
     }
 
 
@@ -199,15 +207,22 @@ footer{
 @media (max-width: 768px){
   body{
     width: 100%;
-    font-size: 1em;
+    font-size: 0.85em;
     
 
     display: grid;
-    grid-template-columns: 1rem 1fr 1rem;
+    grid-template-columns: 0;
 
+  }
+
+  .btn-nav{
+    height: 50px;
+    width: 10px;
   }
   
   #video-pos-credito{
     height: 232px;
   }
+
+  
 }
