@@ -215,7 +215,13 @@ footer{
 
   }
 
+  main{
+    grid-column: 1/4;
 
+    section.cont-sub{
+      
+    }
+  }
 
   .btn-nav{
     height: 40px;
