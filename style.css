@@ -103,11 +103,12 @@ main{
       border-radius: 50%;
       border: none;
       background-color: var(--laranjaD);
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: center;
       position: relative;
       color: var(--principal);
+      transition: background-color 0.3s;
     }
 
     .btn-nav:hover{
@@ -116,11 +117,11 @@ main{
     }
 
     .btn-ant{
-      left: -15px;
+      left: -8px;
     }
 
     .btn-prox{
-      right: -15px;
+      right: -8px;
     }
 
 
@@ -131,7 +132,7 @@ main{
       border-radius: 10px;
       border-top: 5px solid var(--marrom02);
       color: var(--principal);
-      padding: 10px;
+      
 
       display: flex;
       justify-content: center;
@@ -151,10 +152,9 @@ main{
         display: block;
         opacity: 1;
         visibility: visible;
-        text-indent: 10px;
         
         h3{
-          padding-bottom: 10px;
+          padding:10px 0px;
         }
 
         p{
@@ -218,19 +218,18 @@ footer{
   main{
     grid-column: 1/4;
 
-    section.cont-sub{
-      
-    }
   }
 
   .btn-nav{
     height: 40px;
     width: 40px;
   }
-  
+
+  p{
+    
+  }
+
   video#pos-credito{
     height: 232px;
   }
-
-  
 }
