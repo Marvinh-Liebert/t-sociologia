@@ -90,7 +90,7 @@ main{
   div.cont-top{
     background-color: var(--principal);
     margin-bottom: 40px ;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 5px black;
   
@@ -214,6 +214,8 @@ footer{
     grid-template-columns: 0.5rem 1fr 0.5rem;
 
   }
+
+
 
   .btn-nav{
     height: 40px;
